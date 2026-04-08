@@ -1,0 +1,40 @@
+2026-04-07 23:41:15,242 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,242 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,243 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,244 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,244 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,244 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,245 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,245 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,245 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,246 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,246 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,246 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,247 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,247 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,248 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,248 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,248 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,249 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics - Cannot initialize JVM Metri
+cs with processName=JobTracker, sessionId= - already initialized
+2026-04-07 23:41:15,249 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduce
+Launcher - Success!
+2026-04-07 23:41:15,253 [main] INFO  org.apache.pig.Main - Pig script completed in 2 seconds and 31 millise
+conds (2031 ms)
