@@ -1,4 +1,5 @@
-# Zonas con mas animales
+# Zonas Ordenadas Por Cantidad de Animales
+# Pide ANIMALES y EDIFICIOS
 
 from mrjob.job import MRJob
 from mrjob.step import MRStep
@@ -12,7 +13,7 @@ class ZonasAnimalesBreakdown(MRJob):
         ]
 
     def mapper_join(self, _, line):
-        valores = line.split("\t")
+        valores = line.strip().split("\t")
 
         if valores[0].startswith("AN"):
             id_edificio = valores[1]
@@ -32,13 +33,12 @@ class ZonasAnimalesBreakdown(MRJob):
             elif v[0] == "E":
                 id_zona = v[1]
 
-        if id_zona and conteo > 0:
-            yield None, (conteo, id_zona)
+        if id_zona and count > 0:
+            yield None, (count, id_zona)
 
     def reducer_orden(self, _, pairs):
-        for conteo, zona in sorted(pairs, reverse=True):
-            yield zona, conteo
-
+        for count, zona in sorted(pairs, reverse=True):
+            yield zona, count
 
 if __name__ == '__main__':
     ZonasAnimalesBreakdown.run()
