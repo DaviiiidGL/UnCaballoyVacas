@@ -1,4 +1,7 @@
 # Un Caballo y Vacas
+### Esquema base de datos
+<img width="1970" height="1122" alt="Stardewww drawio" src="https://github.com/user-attachments/assets/7435630c-88f5-4bb4-b7d7-c7d86e0ce674" />
+
 
 ### Dataset Principal (Tarea Ganaderia)
 <img width="645" height="901" alt="image" src="https://github.com/user-attachments/assets/ccef1c07-e9ad-44ba-a547-6ae16168b7f7" />
