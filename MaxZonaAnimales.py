@@ -4,11 +4,13 @@
 from mrjob.job import MRJob
 from mrjob.step import MRStep
 
+
 class ZonasAnimalesBreakdown(MRJob):
 
     def steps(self):
         return [
             MRStep(mapper=self.mapper_join, reducer=self.reducer_join),
+            MRStep(reducer=self.reducer_suma_zona),
             MRStep(reducer=self.reducer_orden)
         ]
 
@@ -34,11 +36,15 @@ class ZonasAnimalesBreakdown(MRJob):
                 id_zona = v[1]
 
         if id_zona and count > 0:
-            yield None, (count, id_zona)
+            yield id_zona, count
+
+    def reducer_suma_zona(self, id_zona, counts):
+        yield None, (sum(counts), id_zona)
 
     def reducer_orden(self, _, pairs):
         for count, zona in sorted(pairs, reverse=True):
             yield zona, count
+
 
 if __name__ == '__main__':
     ZonasAnimalesBreakdown.run()
