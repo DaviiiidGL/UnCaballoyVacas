@@ -43,3 +43,13 @@ Como se mandó para que se guardaran en txt, todos tuvieron la misma salida por 
 18	ZN00014	204
 19	ZN00013	190
 ```
+### Especies Ordenadas por profit
+```text
+1	porcino	4175288.867931366
+2	bufalino	4066224.8093338013
+3	aviar	4026390.320186615
+4	bovino	4011568.869907379
+5	ovino	3994534.6897125244
+6	caprino	3988633.6507492065
+7	equino	3936149.5991134644
+```
